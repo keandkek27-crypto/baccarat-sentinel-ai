@@ -1,16 +1,19 @@
-# Python bytecode (ไฟล์ขยะที่เกิดตอนรัน Python)
-__pycache__
-.py[cod]
-$py.class
+# ซ่อนไฟล์ขยะที่เกิดจากการรัน Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Virtual Environment (โฟลเดอร์เก็บไลบรารีในเครื่องเรา ไม่ต้องเอาขึ้น)
-venv
-env
-.env
+# ซ่อนไฟล์ที่เกิดจากการคอมไพล์ (เช่นไฟล์ในรูปที่ 3)
+*.c
+*.pyd
+*.so
+build/
+dist/
 
-# ไฟล์เฉพาะของระบบ (พวกไอคอนโฟลเดอร์)
+# ซ่อนโฟลเดอร์ไลบรารี
+venv/
+env/
+
+# ซ่อนไฟล์ระบบ
 .DS_Store
 Thumbs.db
-
-# ไฟล์ Engine ที่เราไม่อยากแจก (สมมติคุณมีไฟล์ชื่อนี้)
-engine_core.pyd

@@ -28,15 +28,15 @@ pip install streamlit
 เปิดใช้งานหน้า Dashboard:
 `PowerShell`
 ```bash
-`python -m streamlit run app.py`
+python -m streamlit run app.py
 ```
 
 ### 3. Running the Terminal UI
-เปิดใช้งานผ่านหน้า ui:
+เปิดใช้งานผ่านหน้า python :
 
 `PowerShell`
 ```bash
-`python terminal_app.py`
+python terminal_app.py
 ```
 
 ### 📊 Logic & Analytics

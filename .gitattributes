@@ -1,1 +1,3 @@
 *.pyd binary
+
+engine_core.pyd binary
